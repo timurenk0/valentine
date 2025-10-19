@@ -289,6 +289,10 @@ body {
   margin: 2rem 0;
 }
 
+.song-list ul li a {
+  color: inherit;
+}
+
 .song-list ul li img {
   width: 40%;
   border-radius: 50%;
