@@ -1,76 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>бабайкинс</title>
-    <link rel="shortcut icon" href="https://imgs.search.brave.com/ZNXXj8jNtEv57JJbHVi36-niwWA0Yq-cUOElT1oNjeg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni80MzI3LzQzMjc3/MjcucG5nP3NlbXQ9/YWlzX3doaXRlX2xh/YmVs" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="hero-container">
-        <div class="hero-bg"></div>
-        <div class="hero-content">
-            <h1>Поздравляю тебя!</h1>
+    <link
+      rel="shortcut icon"
+      href="https://imgs.search.brave.com/ZNXXj8jNtEv57JJbHVi36-niwWA0Yq-cUOElT1oNjeg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni80MzI3LzQzMjc3/MjcucG5nP3NlbXQ9/YWlzX3doaXRlX2xh/YmVs"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div class="container hero-container">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <h1>Поздравляю тебя!</h1>
+        <p>
+          Сегодня день святого Валентина и я не хочу на тебя давить, но тебе уже
+          стоит запланировать то, как ты признаешься мне в любви 😘
+        </p>
+      </div>
+    </div>
+
+    <div class="container card-container">
+      <div class="card">
+        <div class="card-front">
+          <div class="card-icon">
+            <img src="./images/bulb.png" width="24" height="24" />
+          </div>
+          <div class="card-content">Моё любимое воспоминание о нас вместе</div>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">
+            День твоего прилёта в Баку. За этот вечер мы осуществили много того,
+            что планировали. Это был первый и не далеко не последний (привет из
+            будущего) незабываемый день, проведённый с тобой
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-front">
+          <div class="card-icon">
+            <img src="./images/star.png" width="24" height="24" />
+          </div>
+          <div class="card-content">Любимая черта твоего характера</div>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">
+            Мне очень нравится твоя открытость и честность, даже когда это
+            бывает сложно и неприятно. Я бесконечно ценю чистоту твоего сердца и
+            неимоверно радуюсь, когда вижу тебя счастливой. Похожа на кота ;)
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-front">
+          <div class="card-icon">
+            <img src="./images/question.png" width="24" height="24" />
+          </div>
+          <div class="card-content">То, о чём нельзя больше молчать...</div>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">
+            Сейчас бы не любить изюм и орешки в 2024... Мдээээ
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container list-container">
+      <div class="icon">
+        <img src="./images/heart.png" />
+      </div>
+      <h1>Что мне в тебе нравится...</h1>
+      <ol>
+        <li>Кто сказал, что внешность не решает?</li>
+        <li>Лучший поварёнок и лучший кондитер</li>
+        <li>Присылаешь мемы с кисями</li>
+        <li>Изысканный вкус в музыке</li>
+        <li>Любимая бабайка</li>
+        <li>И ещё парочка вещей, о которых лучше сказать лично)</li>
+      </ol>
+    </div>
+
+    <div class="container fact-container">
+      <div class="meme">
+        <div class="meme-image">
+          <img src="./images//cat.webp" alt="" />
+        </div>
+        <div class="meme-text">
+          <div class="text">
+            <h2>Присылаешь мемы с кисями</h2>
             <p>
-                Сегодня день святого Валентина и я не хочу на тебя давить, 
-                но тебе уже стоит запланировать то, как ты признаешься мне в любви 😘
+              А ты знала, что в недавнем исследовании учёные доказали, что
+              парни, которым девушки присылают смешных китиков, на 64.8%
+              счастливее?
             </p>
+          </div>
         </div>
+      </div>
     </div>
 
-    <div class="card-container">
-        <div class="card">
-            <div class="card-icon">
-                <img src="./images/bulb.png" width="24" height="24">
-            </div>
-            <div class="card-content">
-                Моё любимое воспоминание о нас вместе
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-icon">
-                <img src="./images/star.png" width="24" height="24">
-            </div>
-            <div class="card-content">
-                Любимая черта твоего характера
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-icon">
-                <img src="./images/question.png" width="24" height="24">
-            </div>
-            <div class="card-content">
-                То, о чём нельзя больше молчать...
-            </div>
-        </div>
+    <div class="container secret-container">
+      <div class="secret-image">
+        <img src="./images/secret-bgjpg.jpg" alt="" />
+      </div>
+      <div class="secret-text">
+        <h2>Ты мне нравишься настолько, что...</h2>
+        <ul>
+          <li>
+            <img src="./images/google.png" alt="" />
+            Я готов показать тебе свою историю поиска Google
+          </li>
+          <li>
+            <img src="./images/flag.png" alt="" />
+            Могу позволить себе изменить своим принципам с тобой
+          </li>
+          <li>
+            <img src="./images/more.png" alt="" />
+            Почти смирился с твоим "люблю тебя сильнее" 😒
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <div class="list-container">
-        <div class="icon">
-            <img src="./images/heart.png">
-        </div>
-        <h1>Что мне в тебе нравится...</h1>
-        <ol>
-            <li>Кто сказал, что внешность не решает?</li>
-            <li>Лучший поварёнок и лучший кондитер</li>
-            <li>Присылаешь мемы с кисями</li>
-            <li>Изысканный вкус в музыке</li>
-            <li>Любимая бабайка</li>
-            <li>И ещё парочка вещей, о которых лучше сказать лично)</li>
-        </ol>
+    <div class="container music-container">
+      <h1>Музыка, которая ассоциируется с тобой</h1>
+      <p>
+        Мелодии, которые наполнены особым настроением. Мелодии, которые
+        напоминают о тебе
+      </p>
+
+      <div class="song-list">
+        <ul>
+          <li>
+            <img src="./images/congrats.webp" alt="" />
+            <h2>Congratulations</h2>
+            <p>by Mac Miller</p>
+          </li>
+          <li>
+            <img src="./images/mazot.webp" alt="" />
+            <h2>Море</h2>
+            <p>by MAYOT</p>
+          </li>
+          <li>
+            <img src="./images/mewo.webp" alt="" />
+            <h2>Meow</h2>
+            <p>by <span>Камусик</span> Ivusm</p>
+          </li>
+          <li>
+            <img src="./images/sleep.webp" alt="" />
+            <h2>мечты</h2>
+            <p>by хочуспать</p>
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <div class="fact-container">
-        <div class="meme">
-            <img src="./images//cat.webp" alt="" />
-            <div class="meme-text">
-                <p>sosal</p>
-            </div>
-        </div>
+    <div class="container potion-container">
+      <div class="potion-image">
+        <img src="./images/potion.jpg" alt="" />
+      </div>
+      <h1>Рецепт любовного зелья</h1>
+      <p>
+        Никогда не знаешь, когда оно пригодится, так что оставлю тебе рецепт на
+        всякий случай 😉
+      </p>
+      <ul>
+        <li>
+          <img src="./images/flask.png" alt="" />
+          <h2>Шаг 1</h2>
+          <p>
+            Не жалей и лей 100-ый бензин с примесью этанола для "взрывной"
+            реакции, а также не забудь слёзы своего парня после очередных
+            разборок, чтобы добавить чувств в его чёрствое сердце 😈
+          </p>
+        </li>
+        <li>
+          <img src="./images/candy-cane.png" alt="" />
+          <h2>Шаг 2</h2>
+          <p>
+            Туда же добавляй побольше любимых конфет и шоколадок, чтобы
+            нейтрализовать вкус уже имеющейся бурной смеси 🥵
+          </p>
+        </li>
+        <li>
+          <img src="./images/caution-sign.png" alt="" />
+          <h2>Шаг 3</h2>
+          <p>
+            Последний и самый ответственный шаг! ОБЯЗАТЕЛЬНО приправь полученное
+            варево своей любовью, лаской и заботой, как ты можешь, чтобы оно
+            точно сработало. Ты же не хочешь, чтобы я окончательно подсел на
+            пиво? 🧐
+          </p>
+        </li>
+      </ul>
     </div>
-</body>
+
+    <div class="container finale-container">
+      <h1>Вот и подошёл конец моего сайта</h1>
+      (и моего воображения)
+      <p>
+        Спасибо, что уделила пару минут и спасибо что любила, верила и
+        поддерживала меня всё это время. Это правда ОООООчень много для меня
+        значит и ты не предаставляешь, насколько огромную роль ты играешь в моей
+        жизни. И ещё раз сорри за казус с удалением сайта, спасибо, что
+        дождалась новой версии. Назовём это мелочью жизни ;)
+      </p>
+    </div>
+
+    <hr />
+
+    <div class="footer">
+      Copyright 2025 Page by
+      <a href="https://github.com/timurenk0">Хранитель Твоего Сердца</a>
+    </div>
+  </body>
 </html>
